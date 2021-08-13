@@ -17,6 +17,10 @@ There are two ways to load a theme. Both assume the theme is installed and avail
 #+BEGIN_SRC elisp
 (setq doom-theme 'doom-one)
 #+END_SRC
+** Fonts
+#+begin_src elisp
+(setq doom-font (font-spec :family "Iosevka" :size 14))
+#+end_src
 ** Line Numbers
 #+BEGIN_SRC elisp
 (setq display-line-numbers-type 'relative)
