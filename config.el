@@ -3,7 +3,7 @@
 
 (setq projectile-project-search-path '("~/workspace/"))
 
-(setq doom-theme 'doom-one)
+(setq doom-theme 'solarized-light)
 
 (setq display-line-numbers-type 'relative)
 
