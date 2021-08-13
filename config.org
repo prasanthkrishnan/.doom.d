@@ -43,3 +43,12 @@ This will open documentation for it, including demos of how they are used.
 
 You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 they are implemented.
+* Window-select
+** Increase the ace window leading char font size
+#+BEGIN_SRC elisp
+(custom-set-faces!
+  '(aw-leading-char-face
+    :foreground "white" :background "red"
+    :weight bold :height 2.5 :box (:line-width 10 :color "red")))
+#+END_SRC
+
