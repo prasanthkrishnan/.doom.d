@@ -21,6 +21,10 @@ There are two ways to load a theme. Both assume the theme is installed and avail
 #+BEGIN_SRC elisp
 (setq display-line-numbers-type 'relative)
 #+END_SRC
+** Maximize doom at startup
+#+begin_src elisp
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+#+end_src
 * Lang
 ** Org
 ** Flutter + Dart

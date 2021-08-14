@@ -7,6 +7,8 @@
 
 (setq display-line-numbers-type 'relative)
 
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 (setq lsp-dart-sdk-dir "/home/zerocool/snap/flutter/common/flutter/bin/cache/dart-sdk")
 (setq lsp-dart-flutter-sdk-dir "/home/zerocool/snap/flutter/common/flutter")
 
