@@ -1,0 +1,37 @@
+#+TITLE:   My doom emacs configuration
+#+DATE:    August 13, 2021
+#+STARTUP: inlineimages nofold
+
+* Description
+Configurations for my [[github:/hlissner/doom-emacs][Doom emacs]] setup.
+
+** Maintainers
++ @prasanthkrishnan (Author)
+
+* Enabled Features
++ evil mode everywhere
++ org mode
+** Git
++ magit for version control
++ github reviews for handling PRs from emacs
+** Terminal
++ vterm for the closest terminal emulation
+** File browser
++ ranger mode
++ treemacs
+** Buffer management
++ ibuffer
+** Project management
++ projectile
++ workspaces
+** Language setup
+*** Go Lang
+*** Dart + Flutter
+*** shell
+* TODO [0/3] Roadmap
+** TODO Add google calender integration with org mode
+** STRT Add spell check
+** TODO [0/3] More org features
+*** TODO Org Present
+*** TODO Org Capture
+*** TODO Org Roam
