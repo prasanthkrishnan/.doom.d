@@ -1,12 +1,15 @@
 #+TITLE:   My doom emacs configuration
 #+DATE:    August 13, 2021
+#+OPTIONS: toc:nil
 #+STARTUP: inlineimages nofold
 
-* Description
-Configurations for my [[github:/hlissner/doom-emacs][Doom emacs]] setup.
+* .doom.d
+Configurations for my [[https://github.com/hlissner/doom-emacs][Doom emacs]] setup
 
-** Maintainers
-+ @prasanthkrishnan (Author)
+* Screenshots
+[[https://github.com/hlissner/doom-emacs/blob/screenshots/main.png]]
+
+[[https://github.com/hlissner/doom-emacs/tree/screenshots#emacsd-screenshots][More screenshots]]
 
 * Enabled Features
 + evil mode everywhere
@@ -28,10 +31,10 @@ Configurations for my [[github:/hlissner/doom-emacs][Doom emacs]] setup.
 *** Go Lang
 *** Dart + Flutter
 *** shell
-* TODO [0/3] Roadmap
-** TODO Add google calender integration with org mode
-** STRT Add spell check
-** TODO [0/3] More org features
-*** TODO Org Present
-*** TODO Org Capture
-*** TODO Org Roam
+* Roadmap
++ Add google calender integration with org mode
++ Add spell check
++ More org features
+  - Org Present
+  - Org Capture
+  - Org Roam
