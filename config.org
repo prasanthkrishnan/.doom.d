@@ -11,7 +11,7 @@ Set the projects folder
 #+BEGIN_SRC elisp
 (setq projectile-project-search-path '("~/workspace/"))
 #+END_SRC
-* Editor
+* Doom
 ** Theme
 There are two ways to load a theme. Both assume the theme is installed and available. You can either set `doom-theme' or manually load a theme with the `load-theme' function. This is the default:
 #+BEGIN_SRC elisp
@@ -21,8 +21,14 @@ There are two ways to load a theme. Both assume the theme is installed and avail
 #+BEGIN_SRC elisp
 (setq display-line-numbers-type 'relative)
 #+END_SRC
-* Org
-** Org directory
+* Lang
+** Org
+** Flutter + Dart
+#+begin_src elisp
+(setq lsp-dart-sdk-dir "/home/zerocool/snap/flutter/common/flutter/bin/cache/dart-sdk")
+(setq lsp-dart-flutter-sdk-dir "/home/zerocool/snap/flutter/common/flutter")
+#+end_src
+*** Org directory
 #+BEGIN_SRC elisp
 (setq org-directory "~/org/")
 #+END_SRC
@@ -43,15 +49,17 @@ This will open documentation for it, including demos of how they are used.
 
 You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 they are implemented.
-* Window-select
-** Increase the ace window leading char font size
+* UI
+** Window-select
+*** Increase the ace window leading char font size
 #+BEGIN_SRC elisp
 (custom-set-faces!
   '(aw-leading-char-face
     :foreground "white" :background "red"
     :weight bold :height 2.5 :box (:line-width 10 :color "red")))
 #+END_SRC
-* Avy
+* Editor
+** Avy
 Expand avy search to all windows
 #+begin_src elisp
 (setq avy-all-windows t)
